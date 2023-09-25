@@ -16,7 +16,7 @@ function main() {
 }
 
 function encontrar() {
-    for (let i = 2; i < (entrada + 1); i++) {
+    for (let i = 1; i < (entrada + 1); i++) {
         carga *= i;
     }
     return carga;
